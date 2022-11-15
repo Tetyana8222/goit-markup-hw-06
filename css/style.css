@@ -237,7 +237,46 @@ body {
 :focus {
   cursor: pointer;
 }
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+.modal-form {
+  padding: 0;
+  width: 528px;
+  height: 581px;
+  color: rgba(255, 255, 255, 1);
+}
 
+.modal-input {
+  display: block;
+  width: 448px;
+  height: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.customer-submit {
+  width: 200px;
+  height: 50px;
+  padding: 10px 52px;
+  margin-right: 164px;
+  margin-left: 164px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 6%;
+
+  background-color: var(--accent-color);
+  color: var(--accent-color2);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px (0, 0, 0, 0.15);
+}
 /*Features*/
 .section {
   padding-top: 94px;
@@ -597,7 +636,6 @@ input {
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
-}
 
 /* Portfolio
 Filter */
