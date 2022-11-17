@@ -453,15 +453,6 @@
               </li>
             </ul>
           </div>
-          <!-- <div class="subscribe-us">
-            <form>
-              <label class="section-title">
-                Підпишіться на розсилку
-                <input type="text" name="mail" placeholder="E-mail" />
-              </label>
-              <button type="submit">Підписатися</button>
-            </form>
-          </div> -->
         </div>
       </div>
     </footer>
@@ -474,10 +465,59 @@
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form action="#" name="customer-form" class="modal-form">
-          <input name="user-name" type="text" class="modal-input" />
-          <input name="user-tel" type="text" class="modal-input" />
-          <input name="user-mail" type="text" class="modal-input" />
-          <input type="text" class="modal-input" />
+          <div class="input-line">
+            <label for="user-name" class="modal-label">Ім'я</label>
+            <input
+              name="user-name"
+              id="user-name"
+              type="text"
+              class="modal-input"
+            />
+          </div>
+          <div class="input-line">
+            <label for="user-tel" class="modal-label">Телефон</label>
+            <input
+              name="user-tel"
+              id="user-tel"
+              type="tel"
+              class="modal-input"
+            />
+          </div>
+          <div class="input-line">
+            <label for="user-email" class="modal-label">Пошта</label>
+            <input
+              name="user-mail"
+              id="user-email"
+              type="mail"
+              class="modal-input"
+            />
+          </div>
+          <div class="textarea-line">
+            <label for="user-comment" class="modal-label">Коментар</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Введіть текст"
+              class="modal-textarea"
+            ></textarea>
+          </div>
+          <div class="agreement">
+            <label for="checkbox-agreement">
+              <input
+                id="checkbox-agreement"
+                name="agreement"
+                value="1"
+                type="checkbox"
+                required
+              />
+              <span class="agreement-line"
+                >Погоджуюся з розсилкою та приймаю
+                <a href="#" target="_blank" class="agreement-line2"
+                  >Умови договору</a
+                >
+              </span>
+            </label>
+          </div>
           <button type="submit" class="customer-submit">Відправити</button>
         </form>
       </div>
