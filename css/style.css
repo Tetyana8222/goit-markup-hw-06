@@ -736,9 +736,8 @@ a {
 }
 
 .subscribe-button {
-  position: relative;
-  width: 200px;
-  height: 50px;
+  display: flex;
+  padding: 10px 28px;
   background-color: var(--accent-color);
   color: var(--accent-color2);
   font-family: inherit;
@@ -748,19 +747,13 @@ a {
   letter-spacing: 6%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  /* align-items: center; */
+  align-items: center;
 }
 .subscribe-span {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 28px;
   margin-right: 10px;
 }
 .icon-send {
-  position: absolute;
   fill: var(--accent-color2);
-  top: 10px;
-  right: 8px;
 }
 
 .footer-box {
